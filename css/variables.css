@@ -1,0 +1,15 @@
+/*cssで使用する変数の定義*/
+
+@charset "utf-8";
+
+:root {
+    --color_one: #333; /*メインのカラー１*/
+    --main_bg_color: whitesmoke; /*メインの背景色*/
+    --mini_header_height: 70px; /*768px以下の時のヘッダーの高さ*/
+    --mini_hambarger_width: 2.5rem; /*768px以下の時のハンバーガーアイコンの横幅*/
+    --mini_hambarger_height: calc(var(--mini_header_height) / 2.5); /*768px以下の時のハンバーガーアイコンの高さ*/
+    --mini_hambarger_top_position: calc(var(--mini_header_height) / 2  - 1.3rem); /*768px以下の時のハンバーガーアイコンの縦の位置*/
+    --mini_hambarger_right_position: 1.8rem; /*768px以下の時のハンバーガーアイコン横の位置*/
+    --header_z_index: 10; /*ヘッダーのz-index*/
+}
+/*cssで使用する変数の定義*/

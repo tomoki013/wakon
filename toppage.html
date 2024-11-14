@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+    <head>
+
+        <!--metaタグ-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+
+        <!--タイトル-->
+        <title>わこん</title>
+
+        <!--cssのリンク-->
+        <link rel="stylesheet" href="./css/variables.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style_flex.css">
+
+    </head>
+
+    <body>
+
+        <!--ヘッダー-->
+        <header>
+    
+            <!--768px以下でスクロールしたときにヘッダーの中で上部に固定される部分-->
+            <div class="opacity_header">
+                <div class="logo">
+                    <img class="logo_img" src="img/logo.jpg" alt="ロゴの写真">
+                    <h1 class="title"></h1>
+                </div>
+            
+                <!--ハンバーガーメニュー-->
+                <div class="hambarger" aria-label="メニューアイコン">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <span class="menu_text">menu</span>
+                </div>
+            
+            </div>
+        
+            <!--メインメニュー-->
+            <nav class="navmenu" aria-label="メインメニュー">
+                <ul class="menu_list">
+                    <li class="menu_item"><a href="">最新情報</a></li>
+                    <li class="menu_item"><a href="">メニュー</a></li>
+                    <li class="menu_item"><a href="">こだわり</a></li>
+                    <li class="menu_item"><a href="">お問い合わせ</a></li>
+                </ul>
+            </nav>
+    
+        </header>
+    
+        <!--背景画像-->
+        <div class="bg_img">
+            <div class="img_01"></div>
+            <div class="img_02"></div>
+            <div class="img_03"></div>
+        </div>
+
+        <!--店舗情報-->
+        <div class="shop_info">
+            <ul class="shop_info_list">
+                <li class="shop_info_item">Tel 0742-93-3091</li>
+                <li class="shop_info_item">昼 11:30~14:00</li>
+                <li class="shop_info_item">夜 17:30~21:30</li>
+                <li class="shop_info_item">奈良県奈良市学園北1-1-11 イヴビル 1F</li>
+                <li class="shop_info_item"><a href="https://www.instagram.com/mendokoro_wakon/">Instagram</a></li>
+            </ul>
+        </div>
+        <!--ヘッダー終わり-->
+
+        <main>
+            
+            <!--こだわり-->
+            <div id="particular" class="scroll_up side_by_side">
+
+                <!--こだわりのテキスト-->
+                <div class="side_by_side_text">
+                    <h2>こだわり</h2>
+                </div>
+
+                <!--こだわりの写真-->
+                <div class="side_by_side_img">
+                    <img src="img/food.jpg" alt="">
+                </div>
+
+            </div>
+            
+            <!--メニュー-->
+            <div id="shop_menu" class="scroll_up change_bg_color side_by_side">
+
+                <!--メニューの写真-->
+                <div class="side_by_side_img">
+                    <img src="img/menu.jpg" alt="">
+                </div>
+
+                <!--メニューのテキスト-->
+                <div class="side_by_side_text">
+                    <h2>メニュー</h2>
+                </div>
+
+            </div>
+            
+            <!--最新情報-->
+            <div id="new_info" class="scroll_up">
+                <h2>最新情報</h2>
+                <ul class="new_info_list">
+                    <li class="new_info_item">準備ができ次第更新いたします</li>
+                </ul>
+            </div>
+            
+            <!--お問い合わせ-->
+            <div id="contact" class="scroll_up change_bg_color">
+                <h2>お問い合わせ</h2>
+                <ul class="contact_list">
+                    <li class="contact_item">住　　所：奈良県奈良市学園北1-1-11 イヴビル 1F</li>
+                    <li class="contact_item">電　　話：0742-93-3091</li>
+                    <li class="contact_item">営業時間：昼 11:30~14:00  夜 17:30~21:30
+                    </li>
+                </ul>
+            </div>
+            
+        </main>
+
+        <!--フッター-->
+        <footer>
+            
+            <p>&copy; wakon</p>
+            
+            <!--フッターナビゲーション-->
+            <nav class="footer_nav">
+                <ul class="footer_nav_list">
+                    <li class="footer_nav_item"><a href="">最新情報</a></li>
+                    <li class="footer_nav_item"><a href="">こだわり</a></li>
+                    <li class="footer_nav_item"><a href="">メニュー</a></li>
+                    <li class="footer_nav_item"><a href="">お問い合わせ</a></li>
+                </ul>
+            </nav>
+            
+        </footer>
+        <!--フッター終わり-->
+
+        <!--jQueryのリンク-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!--jsのリンク-->
+        <script src="./js/script.js"></script>
+
+    </body>
+
+</html>
